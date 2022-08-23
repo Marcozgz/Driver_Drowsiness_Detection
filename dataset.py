@@ -1,3 +1,6 @@
+"""
+Process the data.
+"""
 import glob
 import random
 

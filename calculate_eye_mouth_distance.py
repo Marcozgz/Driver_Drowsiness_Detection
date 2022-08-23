@@ -1,3 +1,6 @@
+"""
+Calculate the distance of eyes and mouth of the face.
+"""
 X = 0
 Y = 1
 

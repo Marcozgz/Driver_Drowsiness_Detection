@@ -1,3 +1,6 @@
+"""
+Crop the input images into faces.
+"""
 from interface import detect_face
 from skimage import transform as trans
 from tqdm import tqdm

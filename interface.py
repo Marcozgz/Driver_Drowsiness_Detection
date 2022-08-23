@@ -1,3 +1,6 @@
+"""
+Interface for utilsing detect face.
+"""
 import os
 import torch
 from itertools import product as product

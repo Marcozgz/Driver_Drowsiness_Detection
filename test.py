@@ -1,3 +1,6 @@
+"""
+Testing script for detecting driver drowsiness.
+"""
 import argparse
 
 import numpy as np
