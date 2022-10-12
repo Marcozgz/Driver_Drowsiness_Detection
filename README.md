@@ -1,6 +1,6 @@
-# Drive_Drowsiness_Detection
-Detect drivers' drowsiness condition using CNNs models.
-The code only perform testing not training the models.(Training the models is currently private and indent to add in the future)
+# Drivers' Behaviour Detection
+Detect drivers' behaviours using CNNs models.
+Drivers' drowsiness condition and whether wearing helmets or smoking can be detected.
 
 
 #### Requirements
@@ -9,6 +9,7 @@ The code only perform testing not training the models.(Training the models is cu
 - cuda
 - pytorch==0.4.1+
 - torchvision
+- tensorflow==1.14.0
 - opencv-python
 ~~~
 
@@ -21,10 +22,26 @@ Datasets are stored in server 109
 /home/disk01/zgz/head_pose_estimation/data/DriverDrowsinessDataset/
 ##### Drowsiness_dataset3
 /home/disk01/zgz/head_pose_estimation/data/dataset_new/
+##### Helmet_dataset
+/home/disk01/zgz/smoking_detection/data/helmet
+##### Smoking_dataset
+/home/disk01/zgz/smoking_detection/data
 
 
-#### Testing
 
+#### Run
+
+##### Drowsiness detection
 ~~~shell
-$ python test.py
+$ python drowsiness_detection.py
+~~~
+
+##### Helmet and smoking detection
+~~~shell
+$ python helmet_smoking_detection.py
+~~~
+
+##### Drivers' behaviour detection
+~~~shell
+$ python main.py
 ~~~
